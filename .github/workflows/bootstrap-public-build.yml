@@ -1,0 +1,56 @@
+name: Bootstrap public build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/bootstrap-public-build.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout public deploy repo
+        uses: actions/checkout@v4
+
+      - name: Download validated private build artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL 'https://sdmntprbrazilsouth.oaiusercontent.com/files/00000000-237c-820e-bdd5-d499170f3a12/raw?se=2026-09-04T15%3A18%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=fa0d9979-f6f4-5882-b0d5-c37056dd4cfc&skoid=68f37fa7-4e08-478b-93f3-c72d563a0ab3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-04T11%3A50%3A33Z&ske=2026-09-05T11%3A50%3A33Z&sks=b&skv=2026-02-06&sig=ZOTCjgzMGflazItdfX3Wzsek0cIF5Sv%2BoH0nvEpJEIw%3D' -o /tmp/projetoz-build.zip
+          mkdir -p /tmp/projetoz-build
+          unzip -q /tmp/projetoz-build.zip -d /tmp/projetoz-build
+
+      - name: Publish only compiled browser files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf assets
+          cp /tmp/projetoz-build/index.html ./index.html
+          cp -R /tmp/projetoz-build/assets ./assets
+          touch .nojekyll
+
+          cat > README.md <<'EOF'
+          # ProjetoZ-Play
+
+          Public browser build of ProjetoZ.
+
+          This repository is **deploy-only**. The canonical source code, project documentation, decisions and validation history are maintained separately in the private ProjetoZ repository.
+
+          Current public build: **v0.0.1 — Movement Foundation**
+          EOF
+
+      - name: Commit public build
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html assets .nojekyll README.md
+          git commit -m "deploy: publish ProjetoZ v0.0.1 Movement Foundation"
+          git push
