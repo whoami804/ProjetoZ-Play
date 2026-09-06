@@ -4,4 +4,4 @@ Public browser build of ProjetoZ.
 
 This repository is **deploy-only**. The canonical source code, project documentation, decisions and validation history are maintained separately in the private ProjetoZ repository.
 
-Current public build: **v0.0.10 — Spear Craft Integration — PROMOTED / PASS**
+Current public candidate: **v0.0.10.1 RC1 — Tester UI Separation**
