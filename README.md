@@ -4,4 +4,4 @@ Public browser build of ProjetoZ.
 
 This repository is **deploy-only**. The canonical source code, project documentation, decisions and validation history are maintained separately in the private ProjetoZ repository.
 
-Current public candidate: **v0.0.10.1 RC3 — Far-Zombie QA Fixture**
+Current public promoted build: **v0.0.10.1 — Tester UI Separation — PROMOTED / PASS**
