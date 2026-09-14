@@ -1,0 +1,56 @@
+name: Temporary v0.0.17 RC2 Exact Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/temp-v0017-rc2-exact-deploy.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public deploy repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Download exact RC2 browser artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -L --fail --retry 3 'https://sdmntprbrazilsouth.oaiusercontent.com/files/00000000-5128-820e-9435-65709f6a33eb/raw?se=2026-09-14T03%3A01%3A01Z&sp=r&sv=2026-02-06&sr=b&scid=21df83a3-f1ed-51a6-a38d-16867177731e&skoid=68f37fa7-4e08-478b-93f3-c72d563a0ab3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-13T13%3A06%3A23Z&ske=2026-09-14T13%3A06%3A23Z&sks=b&skv=2026-02-06&sig=lUvUYrhPtRkVfp27Hcuq9oPEMLDXpBZMxMZ5MYYXOts%3D' -o /tmp/rc2.zip
+          echo 'd609e8dc678d2cd520a3121b858b0ca00da3ceb831fa56e8b10615f335067f15  /tmp/rc2.zip' | sha256sum -c -
+
+      - name: Verify exact build bytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/rc2-build
+          mkdir -p /tmp/rc2-build
+          unzip -q /tmp/rc2.zip -d /tmp/rc2-build
+          echo '9298d817602a6a7ffa6f6d96e41d86e8bb841440376c2dccd9bb22709640ed90  /tmp/rc2-build/index.html' | sha256sum -c -
+          echo '1e2e78a9f952f7c2697924710a42611897dd3053f75d1d2e77aa317e55b0f40f  /tmp/rc2-build/assets/index-CRCJDNbx.js' | sha256sum -c -
+          echo 'e0eafa8c37bc5132cf05e512b6e1af5a63c22e152b0299dd3ffa027e851f658f  /tmp/rc2-build/assets/index-tmoqlNsb.css' | sha256sum -c -
+
+      - name: Replace only public game build
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf assets
+          cp -R /tmp/rc2-build/assets ./assets
+          cp /tmp/rc2-build/index.html ./index.html
+
+      - name: Commit exact RC2 deploy
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'whoami804'
+          git config user.email '75729332+whoami804@users.noreply.github.com'
+          git add -A index.html assets
+          git diff --cached --exit-code && { echo 'No build changes to deploy'; exit 1; } || true
+          git commit -m 'deploy: v0.0.17 RC2 exact artifact'
+          git push origin HEAD:main
