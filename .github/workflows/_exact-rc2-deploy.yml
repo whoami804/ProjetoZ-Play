@@ -34,7 +34,7 @@ jobs:
           fetch_blob 8893cd1dccbc1c7eb67798cb1779cd032edfe7a2 >> /tmp/rc2.js.gz
           fetch_blob 574439bdc83a42f048c0b11ae5eaa0a8640134e7 >> /tmp/rc2.js.gz
           fetch_blob 62eac09b3c20aa11c2765198823a2bd7135e55ff >> /tmp/rc2.js.gz
-          fetch_blob e0bcee0019ac1d7dfb026ed073b283380bb6aef1 >> /tmp/rc2.js.gz
+          fetch_blob c46aa633c93c5a900c8202254ae316094ed9fae3 >> /tmp/rc2.js.gz
           fetch_blob e371bde04901c4d2cd345651c709699e0d54a76f >> /tmp/rc2.js.gz
           fetch_blob 6bee9bff7519218e95b2c06d10f68d6cf03994a3 >> /tmp/rc2.js.gz
 
