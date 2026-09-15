@@ -1,0 +1,62 @@
+name: Temporary exact RC1 deploy v0.0.19
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/deploy-v0.0.19-rc1-exact.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-exact-rc1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public deploy repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify exact RC1 artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          url='https://sdmntprbrazilsouth.oaiusercontent.com/files/00000000-f810-820e-bda7-5a495ec93235/raw?se=2026-09-15T02%3A38%3A07Z&sp=r&sv=2026-02-06&sr=b&scid=1d78efdd-e2c7-52ab-bf9c-fdd39229d8ab&skoid=68f37fa7-4e08-478b-93f3-c72d563a0ab3&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-14T19%3A09%3A42Z&ske=2026-09-15T19%3A09%3A42Z&sks=b&skv=2026-02-06&sig=c/leaqdj5/i1nfFtpe9llk%2BOazBJ0BIBU8W4zo5SJT8%3D'
+          curl -L --fail --retry 3 --retry-delay 1 "$url" -o /tmp/rc1.zip
+          echo 'ba7a4d1fb604c95d3306baa967f56e83219a89c9597739b23bfb5fae8386b508  /tmp/rc1.zip' | sha256sum -c -
+          rm -rf /tmp/rc1
+          mkdir -p /tmp/rc1
+          unzip -q /tmp/rc1.zip -d /tmp/rc1
+          files="$(find /tmp/rc1 -type f -printf '%P\n' | sort | tr '\n' ' ' | sed 's/ $//')"
+          test "$files" = 'assets/index-C2CL4AiY.js assets/index-tmoqlNsb.css index.html'
+          (
+            cd /tmp/rc1
+            echo '8a01df0767590ebfe9c95e0b8e2dcfd647d53072d6fc88c8cf64c6557623baf3  assets/index-C2CL4AiY.js'
+            echo 'e0eafa8c37bc5132cf05e512b6e1af5a63c22e152b0299dd3ffa027e851f658f  assets/index-tmoqlNsb.css'
+            echo '70578589ca5cad9f742966ee895e157a92e1d67a258785da9910cf9571e2b8c5  index.html'
+          ) | (cd /tmp/rc1 && sha256sum -c -)
+
+      - name: Copy exact gameplay files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f index.html
+          rm -rf assets
+          mkdir -p assets
+          cp -a /tmp/rc1/index.html ./index.html
+          cp -a /tmp/rc1/assets/. ./assets/
+          echo '8a01df0767590ebfe9c95e0b8e2dcfd647d53072d6fc88c8cf64c6557623baf3  assets/index-C2CL4AiY.js' | sha256sum -c -
+          echo 'e0eafa8c37bc5132cf05e512b6e1af5a63c22e152b0299dd3ffa027e851f658f  assets/index-tmoqlNsb.css' | sha256sum -c -
+          echo '70578589ca5cad9f742966ee895e157a92e1d67a258785da9910cf9571e2b8c5  index.html' | sha256sum -c -
+
+      - name: Commit exact RC1 gameplay
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'whoami804'
+          git config user.email '75729332+whoami804@users.noreply.github.com'
+          git add -A index.html assets
+          git diff --cached --check
+          git commit -m 'deploy: v0.0.19 RC1 exact artifact'
+          git push origin HEAD:main
