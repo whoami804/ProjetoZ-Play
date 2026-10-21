@@ -2,10 +2,10 @@
 
 Public browser build of ProjetoZ.
 
-This repository is **deploy-only**. The canonical source code, project documentation, decisions and validation history are maintained separately in the private ProjetoZ repository.
+**Prepared for public test deployment**: v0.0.20 — Living Forest Expansion — RC1 staging candidate, not PROMOTED.
 
-Current public promoted build: **v0.0.19 — Wolf Pack Aggro Foundation — PROMOTED / PASS (RC2)**
+Last owner-approved PROMOTED/PASS version: v0.0.19 — Wolf Pack Aggro RC2.
 
-Safe rollback build: **v0.0.18 — Simple Firearm Foundation — PROMOTED / PASS**
+Candidate source: `whoami804/ProjetoZ@153c4e352f5f23872d999b0ad17739c2339a47a7` (PR #13).
 
-Exact accepted gameplay: `v0.0.19 RC2`, source `60ff65effdf36dc11374983de1a17ccaca73721a`. Owner device PASS recorded in the private canonical repository. The public HTML, JS and CSS remain byte-identical to the accepted RC2 artifact.
+Device validation and merge/promotion pending. Canonical governance and complete evidence remain in the private ProjetoZ repository.
