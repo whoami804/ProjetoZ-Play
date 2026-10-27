@@ -1,0 +1,44 @@
+{
+  "arvore_folhosa": {
+    "arquivo": "arvore_folhosa.png",
+    "dimensoes_px": [503, 570],
+    "ponto_de_contato_px": [253, 550],
+    "referencia": "base do tronco",
+    "origem": "primeira proposta PNG com sprites individuais; bloco visual experimental"
+  },
+  "pedra_grande": {
+    "arquivo": "pedra_grande.png",
+    "dimensoes_px": [432, 314],
+    "ponto_de_contato_px": [218, 293],
+    "referencia": "base central do pedregulho",
+    "origem": "primeira proposta PNG com sprites individuais; bloco visual experimental"
+  },
+  "arbusto": {
+    "arquivo": "arbusto.png",
+    "dimensoes_px": [372, 310],
+    "ponto_de_contato_px": [193, 289],
+    "referencia": "centro inferior",
+    "origem": "primeira proposta PNG com sprites individuais; bloco visual experimental"
+  },
+  "tufo_grama_flores": {
+    "arquivo": "tufo_grama_flores.png",
+    "dimensoes_px": [357, 230],
+    "ponto_de_contato_px": [194, 211],
+    "referencia": "centro inferior",
+    "origem": "primeira proposta PNG com sprites individuais; bloco visual experimental"
+  },
+  "chao_grama": {
+    "arquivo": "chao_grama.png",
+    "dimensoes_px": [429, 275],
+    "ponto_de_contato_px": [216, 250],
+    "referencia": "vértice frontal do tile",
+    "origem": "primeira proposta PNG com sprites individuais; bloco visual experimental"
+  },
+  "chao_terra": {
+    "arquivo": "chao_terra.png",
+    "dimensoes_px": [430, 276],
+    "ponto_de_contato_px": [218, 250],
+    "referencia": "vértice frontal do tile",
+    "origem": "primeira proposta PNG com sprites individuais; bloco visual experimental"
+  }
+}

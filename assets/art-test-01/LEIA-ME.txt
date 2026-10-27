@@ -1,0 +1,7 @@
+ProjetoZ - ART-TESTE-01 / pacote experimental de 6 sprites
+
+Os PNGs são independentes, RGBA com transparência. Pontos de contato definidos em metadata.json.
+Não congelar resolução, escala ou ponto de contato: validá-los no Phaser.
+Chãos são blocos/losangos ilustrativos: não foram comprovados como tiles encaixáveis; testar e corrigir antes de produzir mapa.
+Pequenas imperfeições podem existir devido à remoção de marcadores do sheet e recorte automático.
+Este pacote não implementa nem autoriza alterações no GitHub.
