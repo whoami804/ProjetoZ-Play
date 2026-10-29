@@ -1,20 +1,21 @@
 # ProjetoZ-Play
 
-Public browser test build of ProjetoZ.
+Public browser build of ProjetoZ.
 
-**Currently published for owner device QA: v0.0.21 — World Sprite Integration Test / RC1 (STAGING, NOT PROMOTED).**
+**Current owner-approved version: v0.0.21 — World Sprite Integration Test — PROMOTED / PASS (RC1).**
 
-- Owner explicitly authorized this **public test deployment**, not a merge or promotion.
-- Canonical game source: private `whoami804/ProjetoZ@44ec7904ae0bdcce1ed4cf11383ade8bad2656a2`.
-- Official manual Release Candidate: https://github.com/whoami804/ProjetoZ/actions/runs/40438668235 — SUCCESS.
-- RC1 gates: Focused PASS (99/99), Game Build PASS, WebKit PASS (11/11), SHA-256 manifest PASS (12/12 build files).
-- RC1 build artifact: `projetoz-browser-build` #12705571011, ZIP SHA-256 `04021d5ffbe40a85ed78411d9dc6a25f01160f1821e769b727e5455329b910ec`.
-- The 12 deployed browser files are the **exact byte-for-byte RC1 artifacts**, not a rebuild. Previous compiled JS was removed.
-- Original six experimental pixel-art sprites are included; ground samples are *not* an approved tiling system.
-- Private PR #15 remains open; v0.0.21 OWNER DEVICE PASS is **PENDING**.
+- Owner approved **v0.0.21** and explicitly authorized merge into private `main` on 2026-10-28; subsequently authorized formal promotion and closeout on the same date.
+- Approved source: `whoami804/ProjetoZ@44ec7904ae0bdcce1ed4cf11383ade8bad2656a2`.
+- Private PR #15 squash-merged into `main` as `60e8609a96dc9d660cf5dbfbcbaebd53aa7ad840`; checked 19/19 implementation/ART/CI/test Git blobs exact.
+- Official RC1 workflow: https://github.com/whoami804/ProjetoZ/actions/runs/40438668235 — SUCCESS (Focused 99/99, WebKit 11/11, Game Build, 12/12 SHA-256 manifest).
+- Post-merge checks: Focused `40801141578` PASS; Build `40801141579` PASS; WebKit `40801141574` PASS; Documentation Governance `40801141586` PASS.
+- Public RC1 game files originate from `projetoz-browser-build` artifact #12705571011, ZIP SHA-256 `04021d5ffbe40a85ed78411d9dc6a25f01160f1821e769b727e5455329b910ec`.
+- **12/12 deployed browser files are byte-for-byte identical to the RC1 artifact. This promotion updates only the README; there is no game rebuild, new sprite version, or new gameplay deployment.**
+- Owner acceptance and promotion are recorded; **specific iPhone Safari device measurements were not separately supplied**, and no such device evidence is inferred.
+- Six original experimental ART-TESTE-01 sprites remain an isolated proof; the two ground samples are **not** certified as a seamless production tileset.
 
-**Last gameplay baseline promoted and accepted: v0.0.20 — Living Forest Expansion — PROMOTED / PASS (RC1).**
+**Previous promoted gameplay / rollback baseline: v0.0.20 — Living Forest Expansion — PROMOTED / PASS (RC1).**
 
-For QA on iPhone Safari in landscape: inspect sprite readability and scale, front/behind layering, tree chop/reset, boulder mine/reset, ground seam alignment, joystick and action controls, and performance.
+Play: https://whoami804.github.io/ProjetoZ-Play/
 
-The private repository `whoami804/ProjetoZ` remains the system of record. No gameplay source merge or version promotion is implied by this staging publication.
+The private `whoami804/ProjetoZ` repository is the sole canonical source for source code, decisions, version state and validation evidence.
