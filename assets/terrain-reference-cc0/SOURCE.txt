@@ -1,0 +1,5 @@
+Source: https://opengameart.org/content/isometric-ground-tiles
+Author: rubberduck (OpenGameArt 2019)
+License: CC0 (public domain)
+Original 64x32 PNG sheets copied bit-for-bit, no edits.
+Only a local S21 art comparison; not approved final ProjetoZ art.

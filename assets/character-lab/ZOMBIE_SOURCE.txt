@@ -1,0 +1,11 @@
+ProjetoZ S21 — Zombie visual blockout, 2026-11-07
+Source image: user-supplied IMG_1178.jpeg ("ZOMBIE SURVIVOR - 8 DIRECTIONS").
+Five extracted views: front, front-right, right, back-left, back.
+Source art cropped using mask from color+connected silhouette, floor shadows removed.
+Each sprite resized with nearest-neighbor, pivot at feet, 64x96 frame.
+Five frames packed in one 320x96 PNG, indexed RGBA alpha 0/255 (64 colors).
+Eight gameplay directions: additional three views mirrored in Phaser.
+No walking animation. All logic/collision/AI unchanged.
+PNG SHA256: a196a2f95a12939e1892c9319acafe749ed751785a70397db2c9485310a2e70e
+Owner must visually validate scale, direction, and alpha on Safari.
+Status: LAB CANDIDATE, not final approved art.

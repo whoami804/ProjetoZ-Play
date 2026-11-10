@@ -1,0 +1,15 @@
+ProjetoZ LAB S21 — FOREST VISUAL 2026-11-08
+Source supplied by owner in this chat:
+ IMG_1186.jpeg — broadleaf tree
+ IMG_1196.png — shrub (screenshot cropped to illustration)
+ IMG_1195.png — felled tree stump (screenshot cropped to illustration)
+Extraction: foreground contrast/color masks, nearest-neighbor pixel-scale;
+PNG indexed color with binary alpha (transparent background), no AI redraw.
+Source colors quantized by palette encoding for compact browser build.
+  arvore.png 128x123 SHA256 a63959b72f2a4251054a77a2321ea08b03c76d5352ccae0636b09d6769a3118d
+  toco.png 78x66 SHA256 6080b5dc9799dbe2cab51cae93a80a394409f33ccd2ecde1c7ce8629573adb9a
+  arbusto.png 106x74 SHA256 746c085df988776c4e532d8631d2aab91f57debe8589c3bf330d0bdefca6fc60
+Gameplay: standing trees render tree; felled/output-blocked render stump;
+decorative ART_TEST_01 shrub renders bush.
+Original physical collider/harvest state/drop/coords unchanged.
+Status CANDIDATE — user Safari visual validation pending; no promotion.

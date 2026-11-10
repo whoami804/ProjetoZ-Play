@@ -1,0 +1,11 @@
+ProjetoZ S21 LAB — visual forest HQ correction, 2026-11-08.
+Owner supplied original reference images for tree, shrub, stump.
+Tree and shrub re-extracted with independent silhouette alpha;
+saved in RGBA, no indexed PNG palette or lossy compression.
+Delivered in lossless WebP for browser rendering (exact RGBA source pixels).
+arvore_hq.webp: original 256x246, SHA256 f3b2a45685485f52c1e18d6b04288460050883d2d7ed1911063815fbafc57406
+arbusto_hq.webp: original 224x158, SHA256 21cd1875d63bc33dcf90ddfab2d37b74eba95b26b5aec8aaf9132308f120ad5b
+Toco retains previous image (unchanged).
+Phaser display sizes unchanged: tree 128x123, shrub 106x74, stump 78x66.
+World positions, depth, collisions, harvest/drop/state untouched.
+Owner Safari QA pending; no public deployment.

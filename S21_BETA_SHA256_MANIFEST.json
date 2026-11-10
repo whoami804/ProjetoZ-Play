@@ -1,0 +1,305 @@
+{
+  "kind": "S21 experimental beta exact archive",
+  "source": "S21 Termux dist, snapshot 2026-11-10",
+  "promoted": false,
+  "browser_files": 59,
+  "archive_sha256": "13d43ae0e7bf9597af0358b72017d2d0c37f995e986c46dd470442a4b53a4ed2",
+  "archive_bytes": 4938827,
+  "files": [
+    {
+      "path": "assets/art-test-01/LEIA-ME.txt",
+      "size": 538,
+      "sha256": "8b22c44ea6615fb49bea0808592b42afc8405e821908006bbc3ae0a3e0b24ad1"
+    },
+    {
+      "path": "assets/art-test-01/PROVENANCE.md",
+      "size": 865,
+      "sha256": "699cbb58456a7cfc99ce014de6f6b792fe8dc8a903e71e6e93dc145a0abfbc95"
+    },
+    {
+      "path": "assets/art-test-01/arbusto.png",
+      "size": 162850,
+      "sha256": "f4c1a6f492a5bac055b71c6ba8adb93364e4de47a4a6217d766ede576e8dd023"
+    },
+    {
+      "path": "assets/art-test-01/arvore_folhosa.png",
+      "size": 377553,
+      "sha256": "55cfc3c647e9b9fcbb1d929945913befd024712dd8d206f63debc59f66fa1bb4"
+    },
+    {
+      "path": "assets/art-test-01/chao_grama.png",
+      "size": 137035,
+      "sha256": "25c6688869dcbe74a1677468a9a70c4f6ecc8595adf7783df746accd99a87280"
+    },
+    {
+      "path": "assets/art-test-01/chao_terra.png",
+      "size": 134156,
+      "sha256": "f72a2e72e2f1080e16c6242bf4bb4f954d282789fec7f72e9a10d49e90af3256"
+    },
+    {
+      "path": "assets/art-test-01/metadata.json",
+      "size": 1569,
+      "sha256": "513a8119b1545c16c7205b3ec2be3d6124ce22c56da81544b96b617afe482035"
+    },
+    {
+      "path": "assets/art-test-01/pedra_grande.png",
+      "size": 171335,
+      "sha256": "786849ce1bd814fb79643f025b6a931100735008765f51cf3015f82e1d8d06d1"
+    },
+    {
+      "path": "assets/art-test-01/tufo_grama_flores.png",
+      "size": 105199,
+      "sha256": "1ce929d3dd4041e96602f6adfb000f970e5133f8f8ffb19b8761b4f00da2ea5c"
+    },
+    {
+      "path": "assets/character-lab/DEER_SOURCE.txt",
+      "size": 633,
+      "sha256": "e607c5801aa8cf9c85e3bd4cf4b5e5fe1bbba80cdeea3683da622be3059c6942"
+    },
+    {
+      "path": "assets/character-lab/SOURCE.txt",
+      "size": 600,
+      "sha256": "02b4a4a18c45753b1725f0cf4db86654949bd02b33699ee3a4f444cdcc6c7d93"
+    },
+    {
+      "path": "assets/character-lab/WOLF_SOURCE.txt",
+      "size": 594,
+      "sha256": "742a4b79171562bd1ca8291e0ae22b20c57a1829b55fbe36975618fed07bb916"
+    },
+    {
+      "path": "assets/character-lab/ZOMBIE_SOURCE.txt",
+      "size": 747,
+      "sha256": "2ab213ca68941467c3edc7ba5f245ebfe15fdebda5086365a14dec05f5bec561"
+    },
+    {
+      "path": "assets/character-lab/deer_5base_80x96_96c.png",
+      "size": 6124,
+      "sha256": "73c69f03ab9ba53897f1429636934dbf3092d6e3cecbe52e6f42d0e85e0363ab"
+    },
+    {
+      "path": "assets/character-lab/survivor_4dir_72x128_compact.png",
+      "size": 9754,
+      "sha256": "8ff7b1811f20e649b1d2154c8fba5a1a0f7df240279b5ed663e3a7560fa40aaf"
+    },
+    {
+      "path": "assets/character-lab/survivor_5base_64x96.png",
+      "size": 4176,
+      "sha256": "eff93767c63c44acb6bb0846223082981c8f24e168bd6bb5623cd895f8693f97"
+    },
+    {
+      "path": "assets/character-lab/survivor_5base_64x96_alpha_v2.png",
+      "size": 4176,
+      "sha256": "0324607b5542b6a923046115af71dc3b2f09ae47ccbab755c597bd43133f88c3"
+    },
+    {
+      "path": "assets/character-lab/wolf_5base_64x64.png",
+      "size": 5916,
+      "sha256": "b15556983449ee6e99609554fa344b6e337d7e7bfe4d8d50ff5f09597a27ebea"
+    },
+    {
+      "path": "assets/character-lab/zombie_5base_64x96_64c_P.png",
+      "size": 6416,
+      "sha256": "a196a2f95a12939e1892c9319acafe749ed751785a70397db2c9485310a2e70e"
+    },
+    {
+      "path": "assets/crafting-bench/bench_SE.png",
+      "size": 837018,
+      "sha256": "a2a953cd3b505b1ab75d838d51f7aa3b41ac0e81158d37171df0c47b6490228c"
+    },
+    {
+      "path": "assets/crafting-bench/bench_SW.png",
+      "size": 842521,
+      "sha256": "9a21b2282b877058427f07c1b322ae468a93b1f7bfb11a79a17ff9abf99af5f2"
+    },
+    {
+      "path": "assets/forest-s21/SOURCE.txt",
+      "size": 1005,
+      "sha256": "d422d6dc37cf9d9f981688c0f65e80751a63385a78c53495558a41c465f26d87"
+    },
+    {
+      "path": "assets/forest-s21/SOURCE_HQ.txt",
+      "size": 767,
+      "sha256": "aeee84df413b83ec6baa4369f20c434106a35dac3a0285d5318a783dbfd873e1"
+    },
+    {
+      "path": "assets/forest-s21/SOURCE_NEW_TREE_20261108.txt",
+      "size": 670,
+      "sha256": "b776a9aba0dabf71bbadda4247a4da6210d128f983c9d2762f7f2b60208f4aa9"
+    },
+    {
+      "path": "assets/forest-s21/arbusto.png",
+      "size": 3667,
+      "sha256": "746c085df988776c4e532d8631d2aab91f57debe8589c3bf330d0bdefca6fc60"
+    },
+    {
+      "path": "assets/forest-s21/arbusto_hq.webp",
+      "size": 45178,
+      "sha256": "21cd1875d63bc33dcf90ddfab2d37b74eba95b26b5aec8aaf9132308f120ad5b"
+    },
+    {
+      "path": "assets/forest-s21/arvore.png",
+      "size": 5523,
+      "sha256": "a63959b72f2a4251054a77a2321ea08b03c76d5352ccae0636b09d6769a3118d"
+    },
+    {
+      "path": "assets/forest-s21/arvore_aprovada_nova.webp",
+      "size": 40986,
+      "sha256": "40bad208d01a2d2832976ea18b2135522cbb2f21ad57860477341fa42c1cb898"
+    },
+    {
+      "path": "assets/forest-s21/arvore_hq.webp",
+      "size": 60516,
+      "sha256": "f3b2a45685485f52c1e18d6b04288460050883d2d7ed1911063815fbafc57406"
+    },
+    {
+      "path": "assets/forest-s21/toco.png",
+      "size": 1997,
+      "sha256": "6080b5dc9799dbe2cab51cae93a80a394409f33ccd2ecde1c7ce8629573adb9a"
+    },
+    {
+      "path": "assets/index-DXkIl66M-forest-items-interactive.js",
+      "size": 157076,
+      "sha256": "4d7ec152565439ca82c7cc9e93e0b465d415d1ef38e28cc27f27343d1ecd6a8a"
+    },
+    {
+      "path": "assets/index-DXkIl66M-forest-items-occlusion.js",
+      "size": 157129,
+      "sha256": "308d97af946ac9c7aec63e2e7bcf64e8645ec04aab9c044a782a74041edd0396"
+    },
+    {
+      "path": "assets/index-DXkIl66M-forest-items.js",
+      "size": 156977,
+      "sha256": "af9f38eb0fef53572f7cc4ccfa5fb810557c5dedafe03f024ccb1eae82c3ebdf"
+    },
+    {
+      "path": "assets/index-DXkIl66M-forest.js",
+      "size": 156781,
+      "sha256": "d7540c687b46eefe3f303611e1b0c25e7e8a7d17556d0bb5f4a65b02fb970d0a"
+    },
+    {
+      "path": "assets/index-DXkIl66M.js",
+      "size": 156760,
+      "sha256": "4c4a691063d3124a4ed5976cfdeef9a858341f8dac588be1aa916dd0d50ca4c3"
+    },
+    {
+      "path": "assets/index-tmoqlNsb.css",
+      "size": 17593,
+      "sha256": "e0eafa8c37bc5132cf05e512b6e1af5a63c22e152b0299dd3ffa027e851f658f"
+    },
+    {
+      "path": "assets/pz-dynamic-occlusion.js",
+      "size": 2497,
+      "sha256": "53eb13d924c23fc5f1b743e62570a5e55deffc4da903ca84bfb759c791731130"
+    },
+    {
+      "path": "assets/pz-forest-interact.js",
+      "size": 3008,
+      "sha256": "f9adddddc4ab06adcb142b74d5f139a3628953b6a69ae2e0b1bca436dd0fffcd"
+    },
+    {
+      "path": "assets/pz-forest-overlay-interactive.js",
+      "size": 6185,
+      "sha256": "0bbbb11ebbfdec068e4f631d2eb08a4de424f0e3fa7d59a84abd961fcc23313d"
+    },
+    {
+      "path": "assets/pz-forest-overlay.js",
+      "size": 6228,
+      "sha256": "0cf62e622ff0725c6ae38923e861c537c9da07ed0fa68903dd01ea4d87b5bc40"
+    },
+    {
+      "path": "assets/pz-world-items.js",
+      "size": 2016,
+      "sha256": "5d4f9a6c41c62a7e124803d59cb7a86afe227823765aefdc47d041fffe356e93"
+    },
+    {
+      "path": "assets/storage-cabinet/cabinet_SE.png",
+      "size": 574728,
+      "sha256": "5b2f44b93888ca7c200f2ae14bcbb7578d30d5db7b254307ce834a1d8b86579c"
+    },
+    {
+      "path": "assets/storage-cabinet/cabinet_SW.png",
+      "size": 596205,
+      "sha256": "dffe9f589a957710af56bdade7103c6390d86eb8bf2981da5c646b906b6ee161"
+    },
+    {
+      "path": "assets/terrain-reference-cc0/SOURCE.txt",
+      "size": 252,
+      "sha256": "495c67a5dd8fbfa18dee1a207bc7c76330912bbc03f72e6f4387f8543e74e49c"
+    },
+    {
+      "path": "assets/terrain-reference-cc0/forest_ground_64x32.png",
+      "size": 171890,
+      "sha256": "989c33713d49500dca141991aa0af207f18d6ad645074eefd2059c413d90d139"
+    },
+    {
+      "path": "assets/terrain-reference-cc0/grass_medium_64x32.png",
+      "size": 146965,
+      "sha256": "4c031780e16d62508a0ddc3a1a9b40472a6b3f7065236b22bd9c36427cb4cf92"
+    },
+    {
+      "path": "assets/world-items-20261110/graveto.png",
+      "size": 1192,
+      "sha256": "998b5a26081f25e3681957adaad3c80f28d8c6349e954c8bcde029fc8b598cd6"
+    },
+    {
+      "path": "assets/world-items-20261110/pedra_grande.png",
+      "size": 3024,
+      "sha256": "0077f5c0ca4370c5191382b92b7c95c64edea2d59b32c197174a948fbd874c4b"
+    },
+    {
+      "path": "assets/world-items-20261110/pedra_pequena.png",
+      "size": 1351,
+      "sha256": "4f496cde498336a519b102e7129f30b9964c72ca23f1369a573d3e45f399f985"
+    },
+    {
+      "path": "index.html",
+      "size": 1762,
+      "sha256": "2953ad9da21669c32174a79ba2c6252935097486f207eba7daa9fd7facc37df9"
+    },
+    {
+      "path": "index.interactive.ready.html",
+      "size": 1703,
+      "sha256": "51dae750148409ea738f68e3711b58b00137c4124fc89c6a8be6fb61e4cc6625"
+    },
+    {
+      "path": "index.occlusion.ready.html",
+      "size": 1762,
+      "sha256": "2953ad9da21669c32174a79ba2c6252935097486f207eba7daa9fd7facc37df9"
+    },
+    {
+      "path": "qa/forest-interactive-regions.jpg",
+      "size": 35969,
+      "sha256": "b18d235c1bd50f8ae7e13ce8b499058d79760a79aca68658c59dab8205d2903a"
+    },
+    {
+      "path": "qa/forest-interactive-spawn.jpg",
+      "size": 29833,
+      "sha256": "c18208d73bd9a0cab222e6ff12a046149cf5bf4b73c8f46e131dd1df9d9b35bb"
+    },
+    {
+      "path": "qa/forest-montage.jpg",
+      "size": 35991,
+      "sha256": "3b4733d90a45565cfe34935c2dcbcc4cc8333ccdc5688e128072b057d883b9eb"
+    },
+    {
+      "path": "qa/forest-spawn.jpg",
+      "size": 60911,
+      "sha256": "dca6ad3e812b9d58002a7341f6b1c63be947b5faeb4c305ce63788a2f6894d22"
+    },
+    {
+      "path": "qa/occlusion-comparison.jpg",
+      "size": 33744,
+      "sha256": "8eb8b5072331138d0aa5fee0314120aa1e2d63fd633724b0d370110f159d5100"
+    },
+    {
+      "path": "qa/world-boulder-qa.jpg",
+      "size": 48935,
+      "sha256": "7549641edf6fc6652575bb3a49321c9db7704ac764f28d1ac5ccf9444ba943de"
+    },
+    {
+      "path": "qa/world-items-preview.jpg",
+      "size": 30795,
+      "sha256": "2e7af11190d9219e713f043978af56464abd9bb3410d5483f81e38cfb99afc2b"
+    }
+  ]
+}

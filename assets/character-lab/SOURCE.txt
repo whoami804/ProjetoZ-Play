@@ -1,0 +1,8 @@
+ProjetoZ S21 LAB — survivor four-direction static blockout — 2026-11-07
+Source: user-provided 4-view reference image, edited into transparent isolated 2x2
+spritesheet by ChatGPT. Derived exact 72x128 four-frame local atlas, no animation.
+Frames left-to-right: front-right, front-left, back-right, back-left.
+Feet pivot: (0.5, 117/128). Collision and movement geometry unchanged.
+PNG SHA256: 8ff7b1811f20e649b1d2154c8fba5a1a0f7df240279b5ed663e3a7560fa40aaf
+Status: LAB CANDIDATE (owner device review pending), not promoted.
+Original master PNG preserved in chat artifact, not this runtime bundle.

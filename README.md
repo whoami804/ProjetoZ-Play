@@ -1,21 +1,19 @@
-# ProjetoZ-Play
+# ProjetoZ — Beta de Floresta (S21, 10/11/2026)
 
-Public browser build of ProjetoZ.
+**BETA TEST — não é promoção estável do ProjetoZ.**
 
-**Current owner-approved version: v0.0.21 — World Sprite Integration Test — PROMOTED / PASS (RC1).**
+### [Jogar a beta no navegador](https://whoami804.github.io/ProjetoZ-Play/)
 
-- Owner approved **v0.0.21** and explicitly authorized merge into private `main` on 2026-10-28; subsequently authorized formal promotion and closeout on the same date.
-- Approved source: `whoami804/ProjetoZ@44ec7904ae0bdcce1ed4cf11383ade8bad2656a2`.
-- Private PR #15 squash-merged into `main` as `60e8609a96dc9d660cf5dbfbcbaebd53aa7ad840`; checked 19/19 implementation/ART/CI/test Git blobs exact.
-- Official RC1 workflow: https://github.com/whoami804/ProjetoZ/actions/runs/40438668235 — SUCCESS (Focused 99/99, WebKit 11/11, Game Build, 12/12 SHA-256 manifest).
-- Post-merge checks: Focused `40801141578` PASS; Build `40801141579` PASS; WebKit `40801141574` PASS; Documentation Governance `40801141586` PASS.
-- Public RC1 game files originate from `projetoz-browser-build` artifact #12705571011, ZIP SHA-256 `04021d5ffbe40a85ed78411d9dc6a25f01160f1821e769b727e5455329b910ec`.
-- **12/12 deployed browser files are byte-for-byte identical to the RC1 artifact. This promotion updates only the README; there is no game rebuild, new sprite version, or new gameplay deployment.**
-- Owner acceptance and promotion are recorded; **specific iPhone Safari device measurements were not separately supplied**, and no such device evidence is inferred.
-- Six original experimental ART-TESTE-01 sprites remain an isolated proof; the two ground samples are **not** certified as a seamless production tileset.
+Este repositório publica **os mesmos 59 arquivos** do build experimental que estava em execução no Galaxy S21 FE. São preservados bytes, texturas, sprites e configurações da versão testada, sem rebuild.
 
-**Previous promoted gameplay / rollback baseline: v0.0.20 — Living Forest Expansion — PROMOTED / PASS (RC1).**
+Novidades: terreno de floresta preenchendo o mundo; vegetação distribuída; **236 árvores com colisão e corte**; novos sprites de graveto e pedra; sprites de personagem, animais e estruturas; transparência dinâmica dos objetos que escondem o personagem.
 
-Play: https://whoami804.github.io/ProjetoZ-Play/
+**O que testar:** abrir em paisagem no Safari/Chrome, caminhar pela floresta, contornar árvores, cortar com machado, coletar materiais e observar a transparência quando o personagem passar atrás da copa. Relatar queda de FPS, bugs de interação, visualização e carregamento.
 
-The private `whoami804/ProjetoZ` repository is the sole canonical source for source code, decisions, version state and validation evidence.
+**Limites:** beta experimental, sem garantia de multiplayer, persistência, estabilidade prolongada ou gate WebKit formal sobre o build exato. O navegador precisa de conexão à internet (Phaser carregado pela CDN). A etiqueta de versão **v0.0.21 / LAB** dentro da tela é histórica e foi preservada para manter o build idêntico ao do S21.
+
+**Rastreabilidade:** [manifesto de hashes SHA-256](./S21_BETA_SHA256_MANIFEST.json) (59 arquivos). Build anterior: branch [archive/pre-s21-beta-20261110](https://github.com/whoami804/ProjetoZ-Play/tree/archive/pre-s21-beta-20261110). O código-fonte e os testes desta beta estão guardados no repositório privado ProjetoZ, aguardando revisão separada da promoção.
+
+A [prévia histórica de terreno v0.0.21.1](./preview/v0.0.21.1-pr22/) permanece acessível sem alterações.
+
+**Status: BETA / TESTE PÚBLICO / NÃO PROMOVIDO.**

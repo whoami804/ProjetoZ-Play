@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#101710" />
+    <title>ProjetoZ — v0.0.21 World Sprite Integration Test</title>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "phaser": "https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js"
+        }
+      }
+    </script>
+    <script src="./assets/pz-forest-overlay-interactive.js"></script>
+    <script src="./assets/pz-world-items.js"></script>
+    <script src="./assets/pz-forest-interact.js"></script>
+    <script src="./assets/pz-dynamic-occlusion.js"></script>
+    <script type="module" crossorigin src="./assets/index-DXkIl66M-forest-items-occlusion.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-tmoqlNsb.css">
+  </head>
+  <body>
+    <main id="game-shell" aria-label="ProjetoZ World Sprite Integration Test">
+      <div id="game-canvas"></div>
+
+      <div id="build-label">ProjetoZ v0.0.21 · LAB NOVA ÁRVORE · +30% · CAM A/B</div>
+
+      <div id="touch-controls" aria-label="Controles touch">
+        <div id="joystick-zone" aria-label="Movimento">
+          <div id="joystick-stick"></div>
+        </div>
+        <button id="attack-button" type="button" aria-label="Atacar">ATAQUE</button>
+        <button id="action-button" type="button" aria-label="Interagir">AÇÃO</button>
+      </div>
+
+      <div id="orientation-gate" role="status">
+        <strong>Gire o aparelho</strong>
+        <span>A v0.0.21 foi feita para jogar em modo paisagem.</span>
+      </div>
+
+      <div id="ui-layer"></div>
+    </main>
+
+  </body>
+</html>

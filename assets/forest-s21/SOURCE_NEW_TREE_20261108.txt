@@ -1,0 +1,9 @@
+ProjetoZ S21 LAB — new owner-approved tree (2026-11-08)
+Approved asset: tree extracted from source tree+ground reference posted in this chat.
+Source sprite processed at 180x192 pixels, alpha transparent outside foliage/trunk/roots.
+File: arvore_aprovada_nova.webp (lossless WebP with alpha).
+SHA-256: 40bad208d01a2d2832976ea18b2135522cbb2f21ad57860477341fa42c1cb898
+All standing HarvestableTree entities use shared "pz-forest-tree-s21" texture.
+Felled state still uses original toco.png. Shrub unchanged.
+Preserve natural source proportions; render 30% larger than default base width.
+This remains LAB candidate pending user validation on Safari; no public promotion.

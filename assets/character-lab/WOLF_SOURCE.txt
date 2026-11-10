@@ -1,0 +1,9 @@
+ProjetoZ S21 LAB — Wolf visual blockout (5 painted poses -> 8 facing directions).
+Input: user-uploaded reference WOLF - 8 DIRECTIONS, 2026-11-07.
+Source extraction: 96x96 color RGBA from supplied image, reduced to
+five 64x64 indexed PNG frames with binary transparency and nearest-neighbor.
+Art frames 0 S, 1 SW, 2 W, 3 NW, 4 N.
+Three other directions NE, E, SE mirrored in Phaser.
+Visual only. No new walking frames, AI/physics/collision changes.
+PNG SHA256 b15556983449ee6e99609554fa344b6e337d7e7bfe4d8d50ff5f09597a27ebea
+Status: LAB CANDIDATE pending on-device visual QA, no remote merge.

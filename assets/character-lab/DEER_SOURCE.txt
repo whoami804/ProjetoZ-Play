@@ -1,0 +1,9 @@
+ProjetoZ S21 LAB — Deer visual blockout, 2026-11-08.
+Original reference: user-supplied IMG_1184.jpeg (DEER - 8 DIRECTIONS).
+Extracted five painted poses: S, SW, W, NW, N.
+Remaining NE, E, SE reflected in Phaser at runtime.
+PNG atlas: deer_5base_80x96_96c.png; 5 frames of 80x96, binary alpha.
+Extraction from original image with foreground silhouette mask; reduced using nearest-neighbor.
+PNG SHA256 73c69f03ab9ba53897f1429636934dbf3092d6e3cecbe52e6f42d0e85e0363ab
+Feet anchor (0.5,91/96). Collisions, HP, idle/flee AI and drops unchanged.
+Status: isolated LAB art candidate awaiting owner visual validation. No public deployment.
