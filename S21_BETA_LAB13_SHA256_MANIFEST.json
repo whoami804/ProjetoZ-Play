@@ -1,0 +1,358 @@
+{
+  "id": "S21-LAB13-2026-11-12",
+  "sourceBranch": "fix/s21-beta-stabilization-20261110",
+  "sourceCommit": "e211c7386b74722c04b4d2203c29d7ac92c13f3f",
+  "version": "v0.0.22-lab.13",
+  "artifactOrigin": "S21 ~/ProjetoZ/dist (exact files, no rebuild)",
+  "promoted": false,
+  "files": {
+    "index.html": {
+      "sha256": "a204e7fddb0375b5ff46e0f6c2e3ce13ad78831af1856d9c922e34faae4f88a6",
+      "bytes": 2315
+    },
+    "lab-build.json": {
+      "sha256": "e17578a789acdab94d14f068034ebe9804f28ce617d438ad472ed9d613492063",
+      "bytes": 412
+    },
+    "assets/art-test-01/LEIA-ME.txt": {
+      "sha256": "8b22c44ea6615fb49bea0808592b42afc8405e821908006bbc3ae0a3e0b24ad1",
+      "bytes": 538
+    },
+    "assets/art-test-01/PROVENANCE.md": {
+      "sha256": "699cbb58456a7cfc99ce014de6f6b792fe8dc8a903e71e6e93dc145a0abfbc95",
+      "bytes": 865
+    },
+    "assets/art-test-01/arbusto.png": {
+      "sha256": "f4c1a6f492a5bac055b71c6ba8adb93364e4de47a4a6217d766ede576e8dd023",
+      "bytes": 162850
+    },
+    "assets/art-test-01/arvore_folhosa.png": {
+      "sha256": "55cfc3c647e9b9fcbb1d929945913befd024712dd8d206f63debc59f66fa1bb4",
+      "bytes": 377553
+    },
+    "assets/art-test-01/chao_grama.png": {
+      "sha256": "25c6688869dcbe74a1677468a9a70c4f6ecc8595adf7783df746accd99a87280",
+      "bytes": 137035
+    },
+    "assets/art-test-01/chao_terra.png": {
+      "sha256": "f72a2e72e2f1080e16c6242bf4bb4f954d282789fec7f72e9a10d49e90af3256",
+      "bytes": 134156
+    },
+    "assets/art-test-01/metadata.json": {
+      "sha256": "513a8119b1545c16c7205b3ec2be3d6124ce22c56da81544b96b617afe482035",
+      "bytes": 1569
+    },
+    "assets/art-test-01/pedra_grande.png": {
+      "sha256": "786849ce1bd814fb79643f025b6a931100735008765f51cf3015f82e1d8d06d1",
+      "bytes": 171335
+    },
+    "assets/art-test-01/tufo_grama_flores.png": {
+      "sha256": "1ce929d3dd4041e96602f6adfb000f970e5133f8f8ffb19b8761b4f00da2ea5c",
+      "bytes": 105199
+    },
+    "assets/character-lab/DEER_SOURCE.txt": {
+      "sha256": "e607c5801aa8cf9c85e3bd4cf4b5e5fe1bbba80cdeea3683da622be3059c6942",
+      "bytes": 633
+    },
+    "assets/character-lab/SOURCE.txt": {
+      "sha256": "02b4a4a18c45753b1725f0cf4db86654949bd02b33699ee3a4f444cdcc6c7d93",
+      "bytes": 600
+    },
+    "assets/character-lab/WOLF_SOURCE.txt": {
+      "sha256": "742a4b79171562bd1ca8291e0ae22b20c57a1829b55fbe36975618fed07bb916",
+      "bytes": 594
+    },
+    "assets/character-lab/ZOMBIE_SOURCE.txt": {
+      "sha256": "2ab213ca68941467c3edc7ba5f245ebfe15fdebda5086365a14dec05f5bec561",
+      "bytes": 747
+    },
+    "assets/character-lab/deer_5base_80x96_96c.png": {
+      "sha256": "73c69f03ab9ba53897f1429636934dbf3092d6e3cecbe52e6f42d0e85e0363ab",
+      "bytes": 6124
+    },
+    "assets/character-lab/survivor_4dir_72x128_compact.png": {
+      "sha256": "8ff7b1811f20e649b1d2154c8fba5a1a0f7df240279b5ed663e3a7560fa40aaf",
+      "bytes": 9754
+    },
+    "assets/character-lab/survivor_5base_64x96.png": {
+      "sha256": "eff93767c63c44acb6bb0846223082981c8f24e168bd6bb5623cd895f8693f97",
+      "bytes": 4176
+    },
+    "assets/character-lab/survivor_5base_64x96_alpha_v2.png": {
+      "sha256": "0324607b5542b6a923046115af71dc3b2f09ae47ccbab755c597bd43133f88c3",
+      "bytes": 4176
+    },
+    "assets/character-lab/wolf_5base_64x64.png": {
+      "sha256": "b15556983449ee6e99609554fa344b6e337d7e7bfe4d8d50ff5f09597a27ebea",
+      "bytes": 5916
+    },
+    "assets/character-lab/zombie_5base_64x96_64c_P.png": {
+      "sha256": "a196a2f95a12939e1892c9319acafe749ed751785a70397db2c9485310a2e70e",
+      "bytes": 6416
+    },
+    "assets/crafting-bench/bench_SE.png": {
+      "sha256": "a2a953cd3b505b1ab75d838d51f7aa3b41ac0e81158d37171df0c47b6490228c",
+      "bytes": 837018
+    },
+    "assets/crafting-bench/bench_SW.png": {
+      "sha256": "9a21b2282b877058427f07c1b322ae468a93b1f7bfb11a79a17ff9abf99af5f2",
+      "bytes": 842521
+    },
+    "assets/forest-s21/SOURCE.txt": {
+      "sha256": "d422d6dc37cf9d9f981688c0f65e80751a63385a78c53495558a41c465f26d87",
+      "bytes": 1005
+    },
+    "assets/forest-s21/SOURCE_HQ.txt": {
+      "sha256": "aeee84df413b83ec6baa4369f20c434106a35dac3a0285d5318a783dbfd873e1",
+      "bytes": 767
+    },
+    "assets/forest-s21/SOURCE_NEW_TREE_20261108.txt": {
+      "sha256": "b776a9aba0dabf71bbadda4247a4da6210d128f983c9d2762f7f2b60208f4aa9",
+      "bytes": 670
+    },
+    "assets/forest-s21/arbusto.png": {
+      "sha256": "746c085df988776c4e532d8631d2aab91f57debe8589c3bf330d0bdefca6fc60",
+      "bytes": 3667
+    },
+    "assets/forest-s21/arbusto_hq.webp": {
+      "sha256": "21cd1875d63bc33dcf90ddfab2d37b74eba95b26b5aec8aaf9132308f120ad5b",
+      "bytes": 45178
+    },
+    "assets/forest-s21/arvore.png": {
+      "sha256": "a63959b72f2a4251054a77a2321ea08b03c76d5352ccae0636b09d6769a3118d",
+      "bytes": 5523
+    },
+    "assets/forest-s21/arvore_aprovada_nova.webp": {
+      "sha256": "40bad208d01a2d2832976ea18b2135522cbb2f21ad57860477341fa42c1cb898",
+      "bytes": 40986
+    },
+    "assets/forest-s21/arvore_hq.webp": {
+      "sha256": "f3b2a45685485f52c1e18d6b04288460050883d2d7ed1911063815fbafc57406",
+      "bytes": 60516
+    },
+    "assets/forest-s21/toco.png": {
+      "sha256": "6080b5dc9799dbe2cab51cae93a80a394409f33ccd2ecde1c7ce8629573adb9a",
+      "bytes": 1997
+    },
+    "assets/forest-s21/toco_hq_lab2.webp": {
+      "sha256": "c7b31845f4ae998c414fcff34134f508eb79d315f18c89483c38f6fdc255a2fe",
+      "bytes": 190952
+    },
+    "assets/index-DXkIl66M-forest-items-interactive.js": {
+      "sha256": "4d7ec152565439ca82c7cc9e93e0b465d415d1ef38e28cc27f27343d1ecd6a8a",
+      "bytes": 157076
+    },
+    "assets/index-DXkIl66M-forest-items-occlusion-devlab7.js": {
+      "sha256": "7e518c44aeec87334154b4f13546c0cb26935f79adeb48e65c0b7eeea8d66691",
+      "bytes": 157664
+    },
+    "assets/index-DXkIl66M-forest-items-occlusion-rocklab4.js": {
+      "sha256": "4542b2ebd14aae34ad4c27d136ccac6cf2d0609c357a9b0ed25271ec66869fd2",
+      "bytes": 157425
+    },
+    "assets/index-DXkIl66M-forest-items-occlusion-rocklab5.js": {
+      "sha256": "0b9e58c4ecd5e7d7f2ab27e398b045d04651fad3696daf0d60dd743647b5926c",
+      "bytes": 157622
+    },
+    "assets/index-DXkIl66M-forest-items-occlusion-stump1.js": {
+      "sha256": "2c84b4857f63c606903cea84d38666ae640a997f65aca241754981b42d0e4add",
+      "bytes": 157176
+    },
+    "assets/index-DXkIl66M-forest-items-occlusion-stump2.js": {
+      "sha256": "bddafb03e8feb57c9dadfae848c563334ce647314728bfc81202fcb4db01aba4",
+      "bytes": 157276
+    },
+    "assets/index-DXkIl66M-forest-items-occlusion.js": {
+      "sha256": "308d97af946ac9c7aec63e2e7bcf64e8645ec04aab9c044a782a74041edd0396",
+      "bytes": 157129
+    },
+    "assets/index-DXkIl66M-forest-items.js": {
+      "sha256": "af9f38eb0fef53572f7cc4ccfa5fb810557c5dedafe03f024ccb1eae82c3ebdf",
+      "bytes": 156977
+    },
+    "assets/index-DXkIl66M-forest.js": {
+      "sha256": "d7540c687b46eefe3f303611e1b0c25e7e8a7d17556d0bb5f4a65b02fb970d0a",
+      "bytes": 156781
+    },
+    "assets/index-DXkIl66M.js": {
+      "sha256": "4c4a691063d3124a4ed5976cfdeef9a858341f8dac588be1aa916dd0d50ca4c3",
+      "bytes": 156760
+    },
+    "assets/index-tmoqlNsb.css": {
+      "sha256": "e0eafa8c37bc5132cf05e512b6e1af5a63c22e152b0299dd3ffa027e851f658f",
+      "bytes": 17593
+    },
+    "assets/menu-lab10/audio-loop.m4a": {
+      "sha256": "494b2ee257a79711ccc3e779d03c26d642363df67f65d4a8b4f20b0280ec1407",
+      "bytes": 108491
+    },
+    "assets/menu-lab6/forest-real.png": {
+      "sha256": "634fc010b6d838bc94b9c6fd0538a851a08ea9bca52770643a29f60ecd3075de",
+      "bytes": 1044536
+    },
+    "assets/menu-lab8/menu-loop.mp4": {
+      "sha256": "957c5d91d8eb9eac3fec36ee7315e315932773969b02e08fc287ef21b7a8e7c4",
+      "bytes": 465225
+    },
+    "assets/menu-lab8/menu-poster.jpg": {
+      "sha256": "f131237679d7080d676c567ccaa49827320c317de8f9cefb66add6fd014eccc8",
+      "bytes": 27256
+    },
+    "assets/menu-lab9/menu-loop-som.mp4": {
+      "sha256": "f00ea1b0e7270cfe79c34fad4c5686e5be598a381f35794352880bcdbecb3ffd",
+      "bytes": 578203
+    },
+    "assets/pz-dev-mode-lab7.css": {
+      "sha256": "a1f5edade321da7b351154b2eb8d32d70401361227103120aef601ede34e8ebd",
+      "bytes": 305
+    },
+    "assets/pz-dev-mode-lab7.js": {
+      "sha256": "9c03d3edc4252891eb9f28487f3e45cb817361981c799aaf6d92cc656efa3de4",
+      "bytes": 1170
+    },
+    "assets/pz-dynamic-occlusion.js": {
+      "sha256": "53eb13d924c23fc5f1b743e62570a5e55deffc4da903ca84bfb759c791731130",
+      "bytes": 2497
+    },
+    "assets/pz-forest-interact.js": {
+      "sha256": "f9adddddc4ab06adcb142b74d5f139a3628953b6a69ae2e0b1bca436dd0fffcd",
+      "bytes": 3008
+    },
+    "assets/pz-forest-overlay-interactive.js": {
+      "sha256": "0bbbb11ebbfdec068e4f631d2eb08a4de424f0e3fa7d59a84abd961fcc23313d",
+      "bytes": 6185
+    },
+    "assets/pz-forest-overlay-lab3.js": {
+      "sha256": "dbff5f54bd3c91889b8765729bd4c52ba826e2b8a366eab5683cc8fe4ef23991",
+      "bytes": 6307
+    },
+    "assets/pz-forest-overlay.js": {
+      "sha256": "0cf62e622ff0725c6ae38923e861c537c9da07ed0fa68903dd01ea4d87b5bc40",
+      "bytes": 6228
+    },
+    "assets/pz-fullscreen-lab13.css": {
+      "sha256": "858d9800d729b5a62eb3822ace46c10e934e160e2c4c85c0c74212969c2a7fb7",
+      "bytes": 949
+    },
+    "assets/pz-fullscreen-lab13.js": {
+      "sha256": "c247dce77e62911bba9c12deee74ff3e15071de0b99ca91d2028124d4c72fd88",
+      "bytes": 1793
+    },
+    "assets/pz-main-menu-lab10.css": {
+      "sha256": "7831b475da95968f161fb6f241a96c89fe61c99f6ad3dfe7796d2b950adc2e77",
+      "bytes": 8015
+    },
+    "assets/pz-main-menu-lab10.js": {
+      "sha256": "9c1fa27fae6c803522f62cc125cf19d6ea04701a61e1b1d96945b9fa83925b48",
+      "bytes": 10702
+    },
+    "assets/pz-main-menu-lab6.css": {
+      "sha256": "543ae1e17da5972a27bb2c5bf9fa2720d1cc84add307ff37633c48b6c3e463ad",
+      "bytes": 5611
+    },
+    "assets/pz-main-menu-lab6.js": {
+      "sha256": "cf9b0ec59deaaeca524ef1963a82d8db607cc5f63c69913c387bd798a35cdc67",
+      "bytes": 5915
+    },
+    "assets/pz-main-menu-lab7.css": {
+      "sha256": "5cde113bbc56dc12a80b4f348acac7238de3a1b29852914ace35e982324376b1",
+      "bytes": 5915
+    },
+    "assets/pz-main-menu-lab7.js": {
+      "sha256": "518b47cf7258d881ebfec095fac5207923f4634500b47ae1d543648e82cd627b",
+      "bytes": 6759
+    },
+    "assets/pz-main-menu-lab8.css": {
+      "sha256": "e6c16afe61d9fa658597c8e275b096e160140e6f3d5b67933b26b8edec29d86e",
+      "bytes": 7565
+    },
+    "assets/pz-main-menu-lab8.js": {
+      "sha256": "dc3b862f22f67183dc3f5607360b3628207bacf142078f62767f25166675ee6a",
+      "bytes": 7322
+    },
+    "assets/pz-main-menu-lab9.css": {
+      "sha256": "7831b475da95968f161fb6f241a96c89fe61c99f6ad3dfe7796d2b950adc2e77",
+      "bytes": 8015
+    },
+    "assets/pz-main-menu-lab9.js": {
+      "sha256": "ea9184fc6227b7cefe1169bcbdd0c9d216b9f524579051fe4182c65900ff72e4",
+      "bytes": 8114
+    },
+    "assets/pz-player-menu-lab11.css": {
+      "sha256": "80b6bff3c873eb1d48dd8ac353dd4724fb3aa78a3abf82e2e0918eabb5c71e2b",
+      "bytes": 6248
+    },
+    "assets/pz-player-menu-lab11.js": {
+      "sha256": "fe7afd0bc26729ac93563ae91c7ae96f4ad5903149cc16e5fb374d1e21f6b056",
+      "bytes": 6022
+    },
+    "assets/pz-player-menu-lab12.css": {
+      "sha256": "d733b0af960995352e02def794714b4bfcc766e6c55c8ed96ce921cb07fa7525",
+      "bytes": 10335
+    },
+    "assets/pz-player-menu-lab12.js": {
+      "sha256": "f3b91dd4e32574a1373bfbc6ff77bdf26b215275230b911d9840d00e39a6aa86",
+      "bytes": 6022
+    },
+    "assets/pz-rocks-lab4-v2.js": {
+      "sha256": "60eee6d954343559462388a87df00693882c1411aca0b61dd72a721cf5d1680a",
+      "bytes": 6471
+    },
+    "assets/pz-rocks-lab4-v3.js": {
+      "sha256": "44405ec0c0053810fcbfd30657203755e858fdb71f644354ccda806e1b106d60",
+      "bytes": 6481
+    },
+    "assets/pz-rocks-lab4.js": {
+      "sha256": "8bb6a549164a695788ca99acf5b95ad7af3daa0ed427f4c12aad8a173b53ce96",
+      "bytes": 6353
+    },
+    "assets/pz-small-rocks-lab5.js": {
+      "sha256": "4621a13dfdcde573fc44f17cbccbe491589ac8a6f36472298278d8b1b6ad56d3",
+      "bytes": 6566
+    },
+    "assets/pz-stump-fix.js": {
+      "sha256": "2ea7a60c9e79f37673495529877d2abf1e414e09744696ad3ad18f22fd0b9a2c",
+      "bytes": 768
+    },
+    "assets/pz-stump-hq-lab2.js": {
+      "sha256": "2107316b616846f3ca9544eb7db71423a183ed6c36ec827dca34a47b740f239b",
+      "bytes": 1091
+    },
+    "assets/pz-world-items.js": {
+      "sha256": "5d4f9a6c41c62a7e124803d59cb7a86afe227823765aefdc47d041fffe356e93",
+      "bytes": 2016
+    },
+    "assets/storage-cabinet/cabinet_SE.png": {
+      "sha256": "5b2f44b93888ca7c200f2ae14bcbb7578d30d5db7b254307ce834a1d8b86579c",
+      "bytes": 574728
+    },
+    "assets/storage-cabinet/cabinet_SW.png": {
+      "sha256": "dffe9f589a957710af56bdade7103c6390d86eb8bf2981da5c646b906b6ee161",
+      "bytes": 596205
+    },
+    "assets/terrain-reference-cc0/SOURCE.txt": {
+      "sha256": "495c67a5dd8fbfa18dee1a207bc7c76330912bbc03f72e6f4387f8543e74e49c",
+      "bytes": 252
+    },
+    "assets/terrain-reference-cc0/forest_ground_64x32.png": {
+      "sha256": "989c33713d49500dca141991aa0af207f18d6ad645074eefd2059c413d90d139",
+      "bytes": 171890
+    },
+    "assets/terrain-reference-cc0/grass_medium_64x32.png": {
+      "sha256": "4c031780e16d62508a0ddc3a1a9b40472a6b3f7065236b22bd9c36427cb4cf92",
+      "bytes": 146965
+    },
+    "assets/world-items-20261110/graveto.png": {
+      "sha256": "998b5a26081f25e3681957adaad3c80f28d8c6349e954c8bcde029fc8b598cd6",
+      "bytes": 1192
+    },
+    "assets/world-items-20261110/pedra_grande.png": {
+      "sha256": "0077f5c0ca4370c5191382b92b7c95c64edea2d59b32c197174a948fbd874c4b",
+      "bytes": 3024
+    },
+    "assets/world-items-20261110/pedra_pequena.png": {
+      "sha256": "4f496cde498336a519b102e7129f30b9964c72ca23f1369a573d3e45f399f985",
+      "bytes": 1351
+    }
+  }
+}

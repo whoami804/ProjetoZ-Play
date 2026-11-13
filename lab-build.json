@@ -1,0 +1,11 @@
+{
+  "version": "0.0.22-lab.13",
+  "channel": "lab",
+  "status": "local-S21-testing",
+  "sourceBranch": "fix/s21-beta-stabilization-20261110",
+  "promotedBaseline": "0.0.21",
+  "publicBetaCommit": "be7fdf330976d7088130282f29a5c5139864ea89",
+  "releasedToPublic": false,
+  "createdAt": "2026-11-12T23:59:26Z",
+  "change": "Android: tela cheia na orientação horizontal via toque em JOGAR ou botão de fallback"
+}

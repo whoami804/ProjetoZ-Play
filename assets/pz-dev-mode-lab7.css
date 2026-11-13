@@ -1,0 +1,1 @@
+body:not(.pz-developer-mode) #build-label,body:not(.pz-developer-mode) .debug-toggle,body:not(.pz-developer-mode) .debug-panel,body:not(.pz-developer-mode) .lab-toggle,body:not(.pz-developer-mode) .lab-panel,body:not(.pz-developer-mode) .gather-count{display:none!important;pointer-events:none!important}
