@@ -1,27 +1,58 @@
-# ProjetoZ — teste beta LAB13 (12/11/2026)
+# ProjetoZ — Roteiro beta LAB37 (19/11/2026)
 
-**Canal experimental. Não é versão promovida e não há persistência/multiplayer comprovados.**
-Jogável em https://whoami804.github.io/ProjetoZ-Play/ .
+**Versão:** `v0.0.22-lab.37` — BETA PÚBLICA NÃO PROMOVIDA.
 
-## O que mudou desde a beta de 10/11
+**Jogo:** https://whoami804.github.io/ProjetoZ-Play/
 
-- Inventário do sobrevivente com abas à esquerda, personagem/equipamentos à direita; área geral mais compacta (~37% nas dimensões medidas).
-- Craft original preservado com **FABRICAR** ao lado de cada receita.
-- Menu inicial com vídeo/áudio e opção para habilitar o modo desenvolvedor, evitando a tela de debug na experiência comum.
-- Pedras e vegetação ajustadas, mantendo corte/colisão e oclusão.
-- **Android fullscreen:** em paisagem há tentativa automática ao girar; em Chrome normalmente é exigido um toque. Ao tocar **JOGAR** em paisagem solicita fullscreen; se não funcionar, pressione **⛶ TELA CHEIA**. O botão serve para sair também.
-- iPhone Safari: fullscreen por API depende do suporte do navegador; se não disponível, usar a tela inicial como Web App (quando aplicável). Não afirmar que PWA já está configurado nesta beta.
+Testar preferencialmente **Safari no iPhone e Chrome no Android,
+com o aparelho na horizontal**. Internet é necessária para carregar
+o Phaser pela CDN. Algumas interfaces de tela cheia variam conforme
+o navegador; não presumir fullscreen no iOS.
 
-## Teste sugerido
+## Testes prioritários
 
-1. Abra o link em Chrome Android e Safari iPhone. Gire para paisagem e verifique se o menu cabe e se há barras do navegador.
-2. Toque **JOGAR**. No Android, confira se entrou em fullscreen; se não, pressione o botão **TELA CHEIA**. Confira retorno ao modo normal.
-3. Movimente-se com o joystick e use **AÇÃO** e **ATAQUE**. Observe colisões com árvores, pedras, corte e transparência ao atravessar o primeiro plano.
-4. Abra o inventário, troque entre abas, confira 8 slots, personagem, informações e craft. Se tiver materiais, fabrique/cancele uma receita e confira a quantidade de recursos.
-5. Verifique chuva/áudio do menu, modo desenvolvedor e legibilidade na orientação horizontal.
-6. Informe dispositivo, navegador e versão, passos para reproduzir, screenshot (se possível), travamento, FPS percebido e falhas de interação.
+1. **Abrir e jogar.** Confirmar que aparece `v0.0.22-lab.37`,
+   entrar por JOGAR, girar para paisagem, caminhar com o joystick e
+   verificar estabilidade e ausência de tela preta.
+2. **Mundo e construções.** Explorar árvores e pedras, usar AÇÃO
+   para coleta, observar fogueira, bancada, armário e curtume.
+   Essas construções devem ficar **100% opacas** mesmo à distância.
+3. **Inventário e status.** Abrir a mochila (8 espaços), conferir
+   ícones de sede/fome/vida, madeira, tábuas, machados, galho e pedra;
+   trocar entre Inventário, Fabricação, Habilidades e Status.
+4. **Combate e caça.** Observar zumbis/animais, experimentar o arco
+   e flecha, verificar cadáveres/loot, tamanho dos sprites e
+   interação sem travar. Não considerar dano/IA aprovados apenas
+   por aparência.
+5. **Fogueira e bancada.** Coletar carne, assar, recolher e usar,
+   observar HP quando aplicável, além da fila normal de fabricação.
+6. **Curtume LAB37 (teste guiado).** No menu de configurações,
+   ativar o **Modo desenvolvedor**. No jogo, abrir **TESTE · QA**,
+   escolher **LAB37 · 2 PELES + IR AO CURTUME**, aproximar-se
+   da estação e usar **AÇÃO**. A estação reúne secador, tina e mesa
+   como **um único objeto interativo**. Escolher a receita de pele
+   de veado ou lobo e tocar **CURTIR**. Após aproximadamente
+   **30 segundos** por pele, tocar **RECOLHER PRONTOS** e verificar
+   o item **Couro Curtido** na mochila, com ícone de rolo de couro.
+7. **Estados e mochila cheia.** Na estação, verificar arte vazia,
+   processando e pronta. Se a mochila estiver cheia, o couro deve
+   continuar disponível na saída até ser recolhido.
+8. **Navegador e sessão.** Verificar orientação, áudio, legibilidade,
+   cliques/toques, possível queda de FPS e comportamento ao recarregar.
 
-**Importante:** o status HTTP 200 e testes automatizados não substituem validação física de Safari/Android. Não tratar como promoção.
+## O que ainda não está pronto
+- Produtos derivados de couro na bancada existente.
+- Comprovação de multiplayer e persistência após sair/recarregar.
+- Validação de desempenho prolongado e métricas de FPS em dispositivos.
+- Teste físico final de Safari/Android nesta LAB37.
 
-**Rastreabilidade do pacote atual:** [manifesto LAB13](S21_BETA_LAB13_SHA256_MANIFEST.json).
-Manifesto da beta de 10/11 é histórico e foi preservado separadamente.
+## Como informar um problema
+
+Enviar **aparelho e sistema**, **navegador e versão**,
+**versão do jogo**, **ações executadas**, **resultado esperado**,
+**resultado observado** e **captura ou vídeo**, se possível.
+Exemplo: `iPhone / Safari / LAB37 / abrir curtume / tocar CURTIR /
+esperado: inicia 30 s / observado: botão não responde`.
+
+Os testes automatizados no S21 foram aprovados, mas não substituem
+os testes físicos dos beta testers. Esta versão não é uma promoção.

@@ -1,0 +1,353 @@
+{
+  "id": "S21-LAB37-2026-11-19",
+  "version": "v0.0.22-lab.37",
+  "sourceBranch": "beta/s21-lab37-20261119",
+  "sourceCommit": "6affa7dff903e25105888e0be511a5684e2fe5ca",
+  "artifactOrigin": "S21 ~/ProjetoZ/dist (exact runtime bytes; no rebuild for publication)",
+  "promoted": false,
+  "fileCount": 85,
+  "totalBytes": 7313748,
+  "files": {
+    "assets/art-test-01/LEIA-ME.txt": {
+      "sha256": "8b22c44ea6615fb49bea0808592b42afc8405e821908006bbc3ae0a3e0b24ad1",
+      "bytes": 538
+    },
+    "assets/art-test-01/PROVENANCE.md": {
+      "sha256": "699cbb58456a7cfc99ce014de6f6b792fe8dc8a903e71e6e93dc145a0abfbc95",
+      "bytes": 865
+    },
+    "assets/art-test-01/arbusto.png": {
+      "sha256": "f4c1a6f492a5bac055b71c6ba8adb93364e4de47a4a6217d766ede576e8dd023",
+      "bytes": 162850
+    },
+    "assets/art-test-01/arvore_folhosa.png": {
+      "sha256": "55cfc3c647e9b9fcbb1d929945913befd024712dd8d206f63debc59f66fa1bb4",
+      "bytes": 377553
+    },
+    "assets/art-test-01/chao_grama.png": {
+      "sha256": "25c6688869dcbe74a1677468a9a70c4f6ecc8595adf7783df746accd99a87280",
+      "bytes": 137035
+    },
+    "assets/art-test-01/chao_terra.png": {
+      "sha256": "f72a2e72e2f1080e16c6242bf4bb4f954d282789fec7f72e9a10d49e90af3256",
+      "bytes": 134156
+    },
+    "assets/art-test-01/metadata.json": {
+      "sha256": "513a8119b1545c16c7205b3ec2be3d6124ce22c56da81544b96b617afe482035",
+      "bytes": 1569
+    },
+    "assets/art-test-01/pedra_grande.png": {
+      "sha256": "786849ce1bd814fb79643f025b6a931100735008765f51cf3015f82e1d8d06d1",
+      "bytes": 171335
+    },
+    "assets/art-test-01/tufo_grama_flores.png": {
+      "sha256": "1ce929d3dd4041e96602f6adfb000f970e5133f8f8ffb19b8761b4f00da2ea5c",
+      "bytes": 105199
+    },
+    "assets/campfire-lab18/campfire_stakes_6frames_140x112.png": {
+      "sha256": "47382f56d5502b231951deeb6ed18abba774e6533127fc45392d3976b9840fed",
+      "bytes": 27619
+    },
+    "assets/campfire-lab19/campfire_fixed_base_140x112.png": {
+      "sha256": "9c3fea6edcb6f9842722253a20b54daaffec7a360533192cc3680aeaf0d801d3",
+      "bytes": 6258
+    },
+    "assets/campfire-lab19/campfire_flames_6frames_140x112.png": {
+      "sha256": "ff08de409a752aab38bcf023a456d46d23a7ad06c3955e4865985dfe19a86347",
+      "bytes": 13553
+    },
+    "assets/campfire-lab20/campfire_fixed_base_lab20_140x112.png": {
+      "sha256": "8323cbd1a0fe1f2c17ae8ce3ade874030b65ce25070c9733c4ca3b47d76786e0",
+      "bytes": 6412
+    },
+    "assets/campfire-lab20/campfire_flames_strict_lab20_6frames_140x112.png": {
+      "sha256": "59a7c27786319ce1d05f4ed988126490e8ffe149008fc4a9e376dd97355e423a",
+      "bytes": 9870
+    },
+    "assets/campfire-loot-lab29/roasted_meat.png": {
+      "sha256": "6146bc171252a18cc5abf97c280af9e897a3980104d78d1c5cde276620d44d3c",
+      "bytes": 4002
+    },
+    "assets/character-lab/DEER_SOURCE.txt": {
+      "sha256": "e607c5801aa8cf9c85e3bd4cf4b5e5fe1bbba80cdeea3683da622be3059c6942",
+      "bytes": 633
+    },
+    "assets/character-lab/SOURCE.txt": {
+      "sha256": "02b4a4a18c45753b1725f0cf4db86654949bd02b33699ee3a4f444cdcc6c7d93",
+      "bytes": 600
+    },
+    "assets/character-lab/WOLF_SOURCE.txt": {
+      "sha256": "742a4b79171562bd1ca8291e0ae22b20c57a1829b55fbe36975618fed07bb916",
+      "bytes": 594
+    },
+    "assets/character-lab/ZOMBIE_SOURCE.txt": {
+      "sha256": "2ab213ca68941467c3edc7ba5f245ebfe15fdebda5086365a14dec05f5bec561",
+      "bytes": 747
+    },
+    "assets/character-lab/deer_5base_80x96_96c.png": {
+      "sha256": "73c69f03ab9ba53897f1429636934dbf3092d6e3cecbe52e6f42d0e85e0363ab",
+      "bytes": 6124
+    },
+    "assets/character-lab/survivor_4dir_72x128_compact.png": {
+      "sha256": "8ff7b1811f20e649b1d2154c8fba5a1a0f7df240279b5ed663e3a7560fa40aaf",
+      "bytes": 9754
+    },
+    "assets/character-lab/survivor_5base_64x96.png": {
+      "sha256": "eff93767c63c44acb6bb0846223082981c8f24e168bd6bb5623cd895f8693f97",
+      "bytes": 4176
+    },
+    "assets/character-lab/survivor_5base_64x96_alpha_v2.png": {
+      "sha256": "0324607b5542b6a923046115af71dc3b2f09ae47ccbab755c597bd43133f88c3",
+      "bytes": 4176
+    },
+    "assets/character-lab/wolf_5base_64x64.png": {
+      "sha256": "b15556983449ee6e99609554fa344b6e337d7e7bfe4d8d50ff5f09597a27ebea",
+      "bytes": 5916
+    },
+    "assets/character-lab/zombie_5base_64x96_64c_P.png": {
+      "sha256": "a196a2f95a12939e1892c9319acafe749ed751785a70397db2c9485310a2e70e",
+      "bytes": 6416
+    },
+    "assets/config-CanJm7Wp.js": {
+      "sha256": "d3287394991fa097bb1d5336d726ed5342011477a02dbbdad6ec30de7712f365",
+      "bytes": 211044
+    },
+    "assets/config-xexZcqI4.css": {
+      "sha256": "bf06bcb84443bd499b85df68aa5604517bcfed04ac86a4fc5c7d7e40a16f5e3c",
+      "bytes": 9355
+    },
+    "assets/crafting-bench/bench_SE.png": {
+      "sha256": "a2a953cd3b505b1ab75d838d51f7aa3b41ac0e81158d37171df0c47b6490228c",
+      "bytes": 837018
+    },
+    "assets/crafting-bench/bench_SW.png": {
+      "sha256": "9a21b2282b877058427f07c1b322ae468a93b1f7bfb11a79a17ff9abf99af5f2",
+      "bytes": 842521
+    },
+    "assets/deer-loot-lab22/bones.png": {
+      "sha256": "5f92e6bee56a7e6b679c798ba6199b5a6f20a9c3575484f6c0c8d45afaa2f75d",
+      "bytes": 2913
+    },
+    "assets/deer-loot-lab22/deer_antler.png": {
+      "sha256": "8e40d09b41ca1e8c532c5eb2e8b3c0513074ea5bff2c98dac30cabae68724801",
+      "bytes": 2567
+    },
+    "assets/deer-loot-lab22/deer_carcass_5base_80x96.png": {
+      "sha256": "3351e7b50cf424c7e20261b38a7d2250ba73bca769dce0c61f86e4523f53a022",
+      "bytes": 5876
+    },
+    "assets/deer-loot-lab22/deer_hide.png": {
+      "sha256": "3a76becb11244e379d62fd76cfc401d7d823cf956ab7d65228b0c4f89a2678f0",
+      "bytes": 2473
+    },
+    "assets/deer-loot-lab22/deer_meat.png": {
+      "sha256": "2b905b90bcd9e17efd15c41a8b5730ed71438644230442194891089d17dd0129",
+      "bytes": 2886
+    },
+    "assets/equipment-lab25/simple_spear.png": {
+      "sha256": "89f2d1d0b77a168c35623aa91493b4db5a2a61db41d029a5b2b43521dd31107b",
+      "bytes": 1554
+    },
+    "assets/equipment-lab25/stone_axe.png": {
+      "sha256": "56eba510b3c26bd7a72c77af0ebdf60a7c0dcab7c9f1dcf0a1797413f5641275",
+      "bytes": 2215
+    },
+    "assets/equipment-lab25/stone_pickaxe.png": {
+      "sha256": "f5f33279bff988c0a242786c85f501b2f837d5ea1360c9ab893e5f688469a42d",
+      "bytes": 2123
+    },
+    "assets/equipment-lab33/arrow.png": {
+      "sha256": "be283b73499598fd02ecb110c2d0360db04689ce1bf58d10e5485b25463e5af0",
+      "bytes": 642
+    },
+    "assets/equipment-lab33/simple_bow.png": {
+      "sha256": "0ad842606b893d2e5fac36262329b8c2a53bdfb9b8fb6f265b6a00ecb37448d3",
+      "bytes": 1808
+    },
+    "assets/forest-s21/SOURCE.txt": {
+      "sha256": "d422d6dc37cf9d9f981688c0f65e80751a63385a78c53495558a41c465f26d87",
+      "bytes": 1005
+    },
+    "assets/forest-s21/SOURCE_HQ.txt": {
+      "sha256": "aeee84df413b83ec6baa4369f20c434106a35dac3a0285d5318a783dbfd873e1",
+      "bytes": 767
+    },
+    "assets/forest-s21/SOURCE_NEW_TREE_20261108.txt": {
+      "sha256": "b776a9aba0dabf71bbadda4247a4da6210d128f983c9d2762f7f2b60208f4aa9",
+      "bytes": 670
+    },
+    "assets/forest-s21/arbusto.png": {
+      "sha256": "746c085df988776c4e532d8631d2aab91f57debe8589c3bf330d0bdefca6fc60",
+      "bytes": 3667
+    },
+    "assets/forest-s21/arbusto_hq.webp": {
+      "sha256": "21cd1875d63bc33dcf90ddfab2d37b74eba95b26b5aec8aaf9132308f120ad5b",
+      "bytes": 45178
+    },
+    "assets/forest-s21/arvore.png": {
+      "sha256": "a63959b72f2a4251054a77a2321ea08b03c76d5352ccae0636b09d6769a3118d",
+      "bytes": 5523
+    },
+    "assets/forest-s21/arvore_aprovada_nova.webp": {
+      "sha256": "40bad208d01a2d2832976ea18b2135522cbb2f21ad57860477341fa42c1cb898",
+      "bytes": 40986
+    },
+    "assets/forest-s21/arvore_hq.webp": {
+      "sha256": "f3b2a45685485f52c1e18d6b04288460050883d2d7ed1911063815fbafc57406",
+      "bytes": 60516
+    },
+    "assets/forest-s21/toco.png": {
+      "sha256": "6080b5dc9799dbe2cab51cae93a80a394409f33ccd2ecde1c7ce8629573adb9a",
+      "bytes": 1997
+    },
+    "assets/forest-s21/toco_hq_lab2.webp": {
+      "sha256": "c7b31845f4ae998c414fcff34134f508eb79d315f18c89483c38f6fdc255a2fe",
+      "bytes": 190952
+    },
+    "assets/index-BbQCis-6.css": {
+      "sha256": "0ea4dfb0e00d6b5178dc5e7c67a497844f1443d7535786354befdc19dd2c0564",
+      "bytes": 29839
+    },
+    "assets/index-DgClLvjU.js": {
+      "sha256": "c8c1dd3ab854a2d8fbfc911b491f53cd40b3def1fec722cf1d0e1a1b59ae8e2a",
+      "bytes": 27755
+    },
+    "assets/inventory-lab35/improved_axe.png": {
+      "sha256": "c43af77057c19d91b6773599cb804dc3a55e87f5074dfe6252cfc22965f7b83d",
+      "bytes": 2548
+    },
+    "assets/inventory-lab35/wood.png": {
+      "sha256": "bb2aa2a2d47b15ced4bc3bc6715e0947b3953eb30a5c4df8aff76f29c6f3993e",
+      "bytes": 3136
+    },
+    "assets/inventory-lab35/wood_plank.png": {
+      "sha256": "4dda6a3f40c90ded88f120c3ddda75a7dbcd15b29cd3534f231fb9272a8e31f6",
+      "bytes": 3160
+    },
+    "assets/leather-lab37/bench_empty.png": {
+      "sha256": "91616769227c65803114511460ceea6107833bfa9dad73dd094ad8a272819685",
+      "bytes": 1049
+    },
+    "assets/leather-lab37/bench_raw.png": {
+      "sha256": "48d94366656a279110fb8a0e2c3ebc91ce470be489a93dd40df3b6bd7855456f",
+      "bytes": 1168
+    },
+    "assets/leather-lab37/bench_ready.png": {
+      "sha256": "00d419e96ce6f42fac1db8a42d56b69e8d78ad0344112e993df45f4910da4585",
+      "bytes": 1110
+    },
+    "assets/leather-lab37/rack_empty.png": {
+      "sha256": "98a3d89d7211587b21e9a6fc44733fc4d8ff1d6eab7123deebb0b7668e80e9f9",
+      "bytes": 1333
+    },
+    "assets/leather-lab37/rack_raw.png": {
+      "sha256": "0376047f883ec362fd83922b4ae3dde3bbd0663762905f4e6091050f34e2e528",
+      "bytes": 1445
+    },
+    "assets/leather-lab37/rack_ready.png": {
+      "sha256": "4ab9621d03d541a1cd83de0f2c18d306b31d1ca8603040f68a22eb13d37ae23c",
+      "bytes": 1600
+    },
+    "assets/leather-lab37/tanned_leather.png": {
+      "sha256": "ac04e84e57ef1a5f29fc5d2e822a85625c440ecbbed91382e606920a3007ed21",
+      "bytes": 1867
+    },
+    "assets/leather-lab37/vat_empty.png": {
+      "sha256": "f76393e5ead64e37c3e7e1d0a8f3747b46c6bc52053439aef87110010ed2ca34",
+      "bytes": 1165
+    },
+    "assets/leather-lab37/vat_raw.png": {
+      "sha256": "b8372bd7dfefe1e2f3fcce6c497b6174f03607d5c713e78785bd6cd6ea92885a",
+      "bytes": 1216
+    },
+    "assets/leather-lab37/vat_ready.png": {
+      "sha256": "170ecc73be90d2f2099ba8cc0193845d02ccf29abf056f7b64cce2b8ec5c72e5",
+      "bytes": 1226
+    },
+    "assets/menu-lab10/audio-loop.m4a": {
+      "sha256": "494b2ee257a79711ccc3e779d03c26d642363df67f65d4a8b4f20b0280ec1407",
+      "bytes": 108491
+    },
+    "assets/menu-lab6/forest-real.png": {
+      "sha256": "634fc010b6d838bc94b9c6fd0538a851a08ea9bca52770643a29f60ecd3075de",
+      "bytes": 1044536
+    },
+    "assets/menu-lab8/menu-loop.mp4": {
+      "sha256": "957c5d91d8eb9eac3fec36ee7315e315932773969b02e08fc287ef21b7a8e7c4",
+      "bytes": 465225
+    },
+    "assets/menu-lab8/menu-poster.jpg": {
+      "sha256": "f131237679d7080d676c567ccaa49827320c317de8f9cefb66add6fd014eccc8",
+      "bytes": 27256
+    },
+    "assets/menu-lab9/menu-loop-som.mp4": {
+      "sha256": "f00ea1b0e7270cfe79c34fad4c5686e5be598a381f35794352880bcdbecb3ffd",
+      "bytes": 578203
+    },
+    "assets/status-lab31/status-icons-v2.png": {
+      "sha256": "5098a4046ff4541d18489494ddba102105b742e2e17cccdd8d0eebc8ff372d4d",
+      "bytes": 5195
+    },
+    "assets/status-lab31/status-icons.png": {
+      "sha256": "3908667249860f2a4582bea794072e872485bc03096df018be41dea6898f74c8",
+      "bytes": 5321
+    },
+    "assets/storage-cabinet/cabinet_SE.png": {
+      "sha256": "5b2f44b93888ca7c200f2ae14bcbb7578d30d5db7b254307ce834a1d8b86579c",
+      "bytes": 574728
+    },
+    "assets/storage-cabinet/cabinet_SW.png": {
+      "sha256": "dffe9f589a957710af56bdade7103c6390d86eb8bf2981da5c646b906b6ee161",
+      "bytes": 596205
+    },
+    "assets/terrain-reference-cc0/SOURCE.txt": {
+      "sha256": "495c67a5dd8fbfa18dee1a207bc7c76330912bbc03f72e6f4387f8543e74e49c",
+      "bytes": 252
+    },
+    "assets/terrain-reference-cc0/forest_ground_64x32.png": {
+      "sha256": "989c33713d49500dca141991aa0af207f18d6ad645074eefd2059c413d90d139",
+      "bytes": 171890
+    },
+    "assets/terrain-reference-cc0/grass_medium_64x32.png": {
+      "sha256": "4c031780e16d62508a0ddc3a1a9b40472a6b3f7065236b22bd9c36427cb4cf92",
+      "bytes": 146965
+    },
+    "assets/ui-lab34/menu-icons.png": {
+      "sha256": "0bd5c4c39fec7416f53fbb27944550f0da14e46da974e2e7f8f450c4ca80c3f7",
+      "bytes": 6251
+    },
+    "assets/wolf-loot-lab24/wolf_carcass_8dir_96x72.png": {
+      "sha256": "0e2585318efa1cfcafa64db71cac0bfaa12a8237149abf561b30378617bcaa91",
+      "bytes": 10733
+    },
+    "assets/wolf-loot-lab24/wolf_hide.png": {
+      "sha256": "10bd76540d48f81daa71f8cc168912f18425fb19143ce84ba34c6ed416ac08d5",
+      "bytes": 3553
+    },
+    "assets/world-items-20261110/graveto.png": {
+      "sha256": "998b5a26081f25e3681957adaad3c80f28d8c6349e954c8bcde029fc8b598cd6",
+      "bytes": 1192
+    },
+    "assets/world-items-20261110/pedra_grande.png": {
+      "sha256": "0077f5c0ca4370c5191382b92b7c95c64edea2d59b32c197174a948fbd874c4b",
+      "bytes": 3024
+    },
+    "assets/world-items-20261110/pedra_pequena.png": {
+      "sha256": "4f496cde498336a519b102e7129f30b9964c72ca23f1369a573d3e45f399f985",
+      "bytes": 1351
+    },
+    "assets/zombie-corpse-lab32/zombie_corpse_8dir_96x72.png": {
+      "sha256": "9f03149b755593f55bdd1f32d54e57cf5290aa690757d2b94d5424d9d6c75a02",
+      "bytes": 7611
+    },
+    "index.html": {
+      "sha256": "e3d6216c49f71cd6f5ecf0f56ea7d6f805868cd7e399594a969230728d4256aa",
+      "bytes": 1506
+    },
+    "lab-build.json": {
+      "sha256": "8e89ff8ac219e43095c47b09b6f2448cbf6b1dfe1dc79e69e719ed4c628515e2",
+      "bytes": 437
+    }
+  },
+  "privateBetaBranch": "beta/s21-lab37-20261119"
+}
