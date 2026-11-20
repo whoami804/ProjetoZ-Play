@@ -1,11 +1,12 @@
 {
-  "version": "0.0.22-lab.37",
-  "channel": "lab",
-  "status": "local-S21-testing",
-  "sourceBranch": "lab/s21-leather-tannery-lab37-20261119",
-  "promotedBaseline": "0.0.21",
-  "publicBetaCommit": "efcf2a8b7ce47b3f26057f558e84c173cf9d8998",
-  "releasedToPublic": false,
+  "version": "0.0.22",
+  "channel": "stable",
+  "status": "promoted-main",
+  "sourceBranch": "release/v0.0.22-lab37-main",
+  "promotedBaseline": "0.0.22",
+  "releasedToPublic": true,
   "createdAt": "2026-11-19T11:20:00.000Z",
-  "change": "LAB37: estação de curtume composta com secador tina mesa, duas receitas de pele, couro curtido e ícone"
+  "change": "LAB37 promoted: integrated tannery, forest, inventory, survival, UI, status art, bow and 100% opaque constructions",
+  "sourceLabVersion": "0.0.22-lab.37",
+  "promotionApprovedDate": "2026-11-19"
 }
