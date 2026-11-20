@@ -1,6 +1,6 @@
 # ProjetoZ v0.0.22 — Versão principal (LAB37 promovida)
 
-**Data:** 19/11/2026. **Estado:** merge/deploy autorizado pelo proprietário;
+**Data:** 19/11/2026. **Estado:** merge privado concluído; deploy oficial autorizado e executado;
 testes técnicos locais aprovados; QA físico final pendente.
 
 ## Principais novidades em relação à v0.0.21
@@ -25,3 +25,5 @@ testes técnicos locais aprovados; QA físico final pendente.
 **Não comprovados:** multiplayer, persistência, FPS de sessão longa
 e QA físico Safari/Chrome da versão estável. A promoção foi autorizada
 sem depender dessas evidências; não apresentá-las como PASS.
+
+**Commit privado promovido:** `1266e808aee92044fa9e8e7f603dbd587dd8f192`.

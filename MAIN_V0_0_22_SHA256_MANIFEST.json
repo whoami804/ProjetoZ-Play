@@ -4,8 +4,8 @@
   "channel": "main",
   "promoted": true,
   "origin": "S21 validated release/v0.0.22-lab37-main build (same exact 85 runtime files)",
-  "sourceCommit": "e8ec2d9c66621bbdfe057db89bfb96ee79b235c2",
-  "sourceBranch": "release/v0.0.22-lab37-main",
+  "sourceCommit": "1266e808aee92044fa9e8e7f603dbd587dd8f192",
+  "sourceBranch": "main",
   "previousPublicCommit": "4b12488c83f4529a45d12166f22edc9410f55d78",
   "fileCount": 85,
   "totalBytes": 7313723,
@@ -350,5 +350,7 @@
       "sha256": "77d9d17c96aa77dcef1912f802364eafbf8001ef15734536409944092c09ef5d",
       "bytes": 439
     }
-  }
+  },
+  "candidateCommit": "e8ec2d9c66621bbdfe057db89bfb96ee79b235c2",
+  "promotionPr": "https://github.com/whoami804/ProjetoZ/pull/35"
 }
